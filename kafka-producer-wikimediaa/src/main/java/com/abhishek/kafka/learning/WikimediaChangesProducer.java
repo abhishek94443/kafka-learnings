@@ -39,7 +39,7 @@ public class WikimediaChangesProducer {
         EventSource.Builder builder=new EventSource.Builder(eventhandler, URI.create(url));
         builder.headers(Headers.of(Map.of(
                 "User-Agent",
-                "KafkaWikimediaProducer/1.0 (your-email@example.com)"
+                "KafkaWikimediaProducer/1.0 (abhishekdwivedi9444@gmail.com)"
         )));
         EventSource eventSource=builder.build();
 
